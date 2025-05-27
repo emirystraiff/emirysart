@@ -1,3 +1,246 @@
-<body>
-<p>Hello, World haha!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emiry Straiff's Portfolio</title>
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- My style sheets -->
+    <link href="index.css" rel="stylesheet">
+
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Magnific popup for images -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+</head>
+
+
+<body>  
+
+
+<!--
+======================   Header   =========================
+-->
+
+<header> 
+
+    <a href="#" class="Header_Name">emiry straiff</a>
+
+    <p class="bio">digital artist | illustrator | designer</p>
+
+    <hr class="bio_divider">
+<!--
+    <a href="contact.html" class="link nav_contact">contact</a>
+-->
+</header> 
+
+
+
+<!--
+======================   ART Section   =========================
+
+
+
+<div class="Art">
+
+    <div class="gallery"> 
+
+        <div class="">
+            <a title="" href="">
+                <img src="" alt="">
+            </a>
+        </div>
+
+-->
+    <!--  </div>  Gallery close tag -->
+ <!-- </div>Art close tag -->
+
+
+ <div class="art">
+    <ul>
+        <li>
+            <a class="imgPOPUP" href="ART/20250110_MarvelRivals_JeffSkit_Shayla_EVILFINAL333_RESIZED.png">
+                <img src="ART/20250110_MarvelRivals_JeffSkit_Shayla_EVILFINAL333_RESIZED.png" alt="test">
+            </a>
+        </li>
+
+        <li>
+            <a class="imgPOPUP" href="ART/20250211_Wicked_LastFramePrint_FINAL_resizedSMALL.png">
+                <img src="ART/20250211_Wicked_LastFramePrint_FINAL_resizedSMALL.png" alt="">
+            </a>
+        </li>
+
+        <li>
+            <a class="imgPOPUP" href="ART/ChasingChicken_RESIZED.png">
+                <img src="ART/ChasingChicken_RESIZED.png" alt="">
+            </a>
+        </li>
+
+        <li>
+            <a class="imgPOPUP" href="ART/Realism_Portrait_ED_RESIZED.jpg">
+                <img src="ART/Realism_Portrait_ED_RESIZED.jpg" alt="">
+            </a>
+        </li>
+
+        <li>
+            <a class="imgPOPUP" href="">
+                <img src="" alt="">
+            </a>
+        </li>
+
+        <li>
+            <a class="imgPOPUP" href="">
+                <img src="" alt="">
+            </a>
+        </li>
+
+        <li>
+            <a class="imgPOPUP" href="">
+                <img src="" alt="">
+            </a>
+        </li>
+
+    </ul>
+ </div>
+
+
+  <div class="BrilliantArt_Drive">
+            <a class="imgPOPUP" href="ART/FINAL_Claire_Driving_GIF.gif">
+                <img class="DriveGIF" src="ART/FINAL_Claire_Driving_GIF.gif" alt="">
+            </a>
+ </div>
+
+
+
+ <div class="BrilliantArt_Claire">
+    <ul>
+
+        <li>
+            <a class="imgPOPUP" href="ART/Claire_FullBody.png">
+                <img class="ClaireONE" src="ART/Claire_FullBody.png" alt="">
+            </a>
+        </li>
+
+                <li>
+            <a class="imgPOPUP" href="ART/Claire_Character_ALLColorExplorations.png">
+                <img class="ClaireTHREE" src="ART/Claire_Character_ALLColorExplorations.png" alt="">
+            </a>
+        </li>
+                <li>
+            <a class="imgPOPUP" href="ART/Claire_Character_DraftsALL_greyscale.png">
+                <img class="ClaireTWO" src="ART/Claire_Character_DraftsALL_greyscale.png" alt="">
+            </a>
+        </li>
+
+
+<!--
+        <li>
+            <a class="imgPOPUP" href="ART/Claire_Character_ColorVariationsNarrowed.png">
+                <img  src="ART/Claire_Character_ColorVariationsNarrowed.png" alt="">
+            </a>
+        </li> -->
+
+
+    </ul>
+ </div>
+
+
+ <div class="BrilliantArt_Assets">
+    <ul>
+        <li>
+            <a class="imgPOPUP" href="ART/Assets_TreeIterations.png">
+                <img class="AssetONE" src="ART/Assets_TreeIterations.png" alt="">
+            </a>
+        </li>
+
+        <div class="AssetDIV">
+
+                <li>
+            <a class="imgPOPUP" href="ART/Assets_ALLbullets_transp_RESIZED.png">
+                <img class="AssetTWO" src="ART/Assets_ALLbullets_transp_RESIZED.png" alt="">
+            </a>
+        </li>
+
+
+        <li>
+            <a class="imgPOPUP" href="ART/Assets_Building_ALL_transp.png">
+                <img class="AssetTHREE" src="ART/Assets_Building_ALL_transp.png" alt="">
+            </a>
+        </li>
+</div>
+
+    </ul>
+ </div>
+
+
+
+
+
+
+<div class="ClareCelebrate">      
+        <li>
+            <a class="imgPOPUP" href="ART/FINAL_Claire_Celebrating_GIF.gif">
+                <img class="ClaireFOUR" src="ART/FINAL_Claire_Celebrating_GIF.gif" alt="">
+            </a>
+        </li>
+
+</div>
+
+
+<!--
+
+ <div class="BrilliantArt_Drive">
+    <ul>
+        <li class="drivingGIF"> 
+            <a class="imgPOPUP" href="ART/FINAL_Claire_Driving_GIF.gif">
+                <img class="DriveGIF" src="ART/FINAL_Claire_Driving_GIF.gif" alt="">
+            </a>
+        </li>
+    </ul>
+ </div>
+
+
+======================   FOOTER page   =========================
+
+-->
+
+
+<div class="footer">
+
+
+    <a href="" class="Header_Name_FOOT">emiry straiff</a>
+
+    <p class="bio_FOOT">digital artist | illustrator | designer</p>
+
+    <p class="email_FOOT">emirystraiff@gmail.com</p>
+
+    <hr class="bio_divider_FOOT">
+
+
+    <button class="link BackToTop">back to top</button>
+
+    <p class="copyright">&copy; 2025 EMIRY STRAIFF</p>
+
+</div>
+
+
+
+
+
+    <!-- My JS scripts -->
+    <script src="index.js"></script>
+
 </body>
+</html>
