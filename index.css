@@ -1,0 +1,552 @@
+
+body
+{
+    font-family: "Montserrat";
+    height: 1000px;
+    margin: 0;
+    padding-top: 35px;
+}
+
+
+header
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.Header_Name
+{
+    text-decoration: none;
+    font-size: 10vw;
+    font-weight: 600;
+    color: #FFC31F;
+
+}
+ 
+.bio
+{
+ color: #4e2800;
+ padding-bottom: 10px;
+}
+
+.bio_divider
+{
+    border: none;
+    height: 4px;
+    width: 70vw;
+    background-image: linear-gradient(to right, rgba(255, 195, 31, 0), rgba(255, 195, 31, 1), rgba(255, 195, 31, 0));
+}
+
+.art
+{
+
+    padding-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+ul
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+padding-left: 0;
+}
+
+li
+{
+list-style: none;
+
+}
+
+.art ul li a img
+{
+
+    height: 50vw;
+    width: auto;
+    max-height: 800px;
+        padding-bottom: 20px;
+}
+
+.gif
+{
+    height: 50vw;
+    width: auto; 
+}
+
+.drivingGIF
+{
+    /* background: url("ART/Claire_Driving_GIF.gif"); */
+    height: auto;
+    width: 20vw;
+}
+
+
+
+
+.BrilliantArt_Claire
+{
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.BrilliantArt_Claire ul
+{
+display: flex;
+justify-content: space-around;
+width: 100%;
+}
+
+.BrilliantArt_Claire ul li
+{
+display: flex;
+align-items: center;
+
+}
+
+
+.ClaireONE
+{
+    max-height: 750px;
+    width: auto;
+    height: 40vw;
+}
+
+.ClaireTWO
+{
+    max-width: 750px;
+    width: 16.5vw;
+    height: auto;
+
+}
+
+.ClaireTHREE
+{
+    max-width: 750px;
+    width: 30vw;
+    height: auto;
+
+}
+
+
+
+.BrilliantArt_Assets
+{
+    
+}
+
+.AssetDIV
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+
+
+.AssetONE
+{
+    max-height: 750px;
+    width: auto;
+    height: 30vw;
+    min-height: 180px;
+}
+
+.AssetTWO
+{
+    max-width: 750px;
+    min-width: 100px;
+    width: 8vw;
+    height: auto;
+    padding-top: 3vw;
+}
+
+.AssetTHREE
+{
+    max-width: 750px;
+    width: 25vw;
+    height: auto;
+}
+
+
+.BrilliantArt_Drive
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.DriveGIF
+{
+    max-width: 2000px;
+    width: 100vw;
+    height: auto;
+}
+
+
+
+
+
+.ClaireFOUR
+{
+    max-height: 750px;
+    min-height: 300px;
+    width: auto;
+    height: 30vw;
+    position: relative;
+    top: -90px;
+    z-index: -5;
+}
+
+.ClareCelebrate
+{
+display: flex;
+justify-content: center;
+}
+
+
+
+.footer
+{
+    background-color: #FFC31F;
+    margin: 0;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+        z-index: 3;
+    position: relative;
+    top: -120px;
+}
+
+.BackToTop
+{
+text-decoration: none;
+color:#4e2800;
+font-weight: 800;
+font-size: 20px;
+position: relative;
+top: -30px;
+
+background: none;
+border:none;
+}
+
+/*
+
+button:active
+{
+    background: none;
+border:none;
+}
+
+button:focus
+{
+    background: none;
+border:none;
+}
+
+button:visited
+{
+    background: none;
+border:none;
+}
+*/
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+    cursor: pointer;
+	font: inherit;
+	outline: inherit;
+}
+
+.copyright
+{
+margin:0;
+
+}
+
+
+.Header_Name_FOOT
+{
+    text-decoration: none;
+    font-size: 5vw;
+    font-weight: 600;
+    color: #ffffff;
+    position: relative;
+    top: 25px;
+}
+
+.bio_FOOT
+{
+     color: #4e2800;
+    padding-bottom: 10px;
+    position: relative;
+    top: 20px;
+}
+
+
+.bio_divider_FOOT
+{
+    border: none;
+    height: 4px;
+    width: 30vw;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255,.5), rgba(255, 255, 255, 0));
+    position: relative;
+    top: -50px;
+}
+
+.email_FOOT
+{
+    color: #4e2800;
+    padding-bottom: 10px;
+    font-size: 2vw;
+    font-weight: 500;
+    position: relative;
+    top: -20px;
+}
+
+
+
+
+
+/*/// MOBILE, 320-480px ///*/
+@media screen and (min-width: 320px) and (max-width: 480px)
+{
+
+    .art
+    {
+        padding-top: 30px;
+    }
+
+        .art ul
+    {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .art li
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .art ul li a img
+    {
+
+    height: 85vw;
+    width: auto;
+    max-height: 800px;
+    padding-bottom: 20px;
+    }
+
+
+
+
+    .ClaireFOUR
+{
+    max-height: 750px;
+    min-height: 300px;
+    width: auto;
+    height: 30vw;
+    position: relative;
+    top: -90px;
+    z-index: -5;
+}
+
+.ClareCelebrate
+{
+overflow: hidden;
+width: 100vw;
+height: auto;
+}
+
+
+            .footer
+    {
+    height: 200px;
+    }
+
+
+.bio_FOOT
+{
+    font-size: 12PX;
+    position: relative;
+    top: 20px;
+}
+
+
+            .bio_divider_FOOT
+    {
+    position: relative;
+    top: -30px;
+    }
+
+.email_FOOT
+{
+    position: relative;
+    top: -5px;
+    font-size: 15px;
+}
+
+.Header_Name_FOOT
+{
+    font-size: 9vw;
+    top: 20px;
+
+}
+
+.copyright
+{
+margin:0;
+font-size: 10px;
+position: relative;
+top: -10px;
+}
+
+.BackToTop
+{
+top: -20px;
+font-size: 15px;
+}
+
+}
+
+
+/*/// iPads, Tablets, 481-768px ///*/
+@media screen and (min-width: 481px) and (max-width: 768px)
+{
+    .art ul
+    {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .art li
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .art ul li a img
+    {
+
+    height: 75vw;
+    width: auto;
+    max-height: 800px;
+    padding-bottom: 20px;
+    }
+
+            .footer
+    {
+    height: 250px;
+    }
+
+        .bio_divider_FOOT
+    {
+    position: relative;
+    top: -30px;
+    }
+
+.email_FOOT
+{
+    position: relative;
+    top:-10px;
+    font-size: 20px;
+}
+
+.BackToTop
+{
+position: relative;
+top: -20px;
+font-size: 15px;
+}
+
+.copyright
+{
+margin:0;
+font-size: 10px;
+}
+
+
+.Header_Name_FOOT
+{
+    font-size: 7.6vw;
+    top: 20px;
+
+}
+
+.bio_divider_FOOT
+{
+    position: relative;
+    width: 30vw;
+    top: -30px;
+}
+
+
+}
+
+
+/*/// Small Screens, Laptops, 769-1024px ///*/
+@media screen and (min-width: 769px) and (max-width: 1024px)
+{
+        .footer
+    {
+    height: 265px;
+    }
+
+    .bio_divider_FOOT
+{
+    position: relative;
+    top: -30px;
+}
+
+.email_FOOT
+{
+    position: relative;
+    top:-10px;
+    font-size: 20px;
+}
+
+
+.BackToTop
+{
+position: relative;
+top: -20px;
+
+}
+.copyright
+{
+margin:0;
+font-size: 15px;
+}
+
+    
+}
+
+
+/*/// Desktops, Large Screens, 1025-1200 px ///*/
+@media screen and (min-width: 1025px) and (max-width: 1200px) 
+{
+    .footer
+    {
+    height: 300px;
+    }
+
+    
+}
